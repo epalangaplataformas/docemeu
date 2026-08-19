@@ -61,7 +61,7 @@ export function EncomendarPage() {
       <div className="container-editorial min-h-[80vh] flex flex-col items-center justify-center text-center py-20">
         <h1 className="text-4xl font-display text-espresso mb-4">A sua encomenda está vazia.</h1>
         <p className="text-cacau mb-8">Descubra as nossas especialidades e escolha algo delicioso.</p>
-        <Button asChild><Link to="/menu">Ver Menu</Link></Button>
+        <Button><Link to="/menu">Ver Menu</Link></Button>
       </div>
     );
   }

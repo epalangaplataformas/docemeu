@@ -53,7 +53,7 @@ export function Header() {
         </nav>
 
         <div className="hidden md:block">
-          <Button asChild variant="default" size="sm">
+          <Button variant="default" size="sm">
             <Link to="/encomendar">Encomendar</Link>
           </Button>
         </div>
